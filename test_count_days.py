@@ -21,15 +21,3 @@ class CountTests(unittest.TestCase):
 		self.assertEqual(count_months(5), 60)
 
 
-
-"""
-		if __name__ == '__main__':
-	assert count(38) == 13870
-	assert count(12) == 4380
-	assert count(5) == 1825
-	
-	
-	assert count_months(38) == 456
-	assert count_months(12) == 144
-	assert count_months(5) == 60
-"""
