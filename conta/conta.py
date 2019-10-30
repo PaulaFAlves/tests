@@ -22,7 +22,7 @@ class Conta():
 		self.saldo -= valor
 	
 	def __repr__(self):
-		return 'numero: {} \nnome: {} \nsaldo: {}'.format(self.numero, self.titular, self.saldo)
+		return 'Numero: {} \nNome: {} \nSaldo: R$ {} \nLimite: R$ {}'.format(self.numero, self.titular, self.saldo, self.limite)
 	
 
 if __name__ == "__main__":
