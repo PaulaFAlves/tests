@@ -7,8 +7,7 @@ cadastro = [{'nome': 'Renato', 'Marguerita' : 4, 'Quatro queijos' : 5, 'Escarola
  			{'nome': 'Tino', 'Marguerita' : 1, 'Quatro queijos' : 5, 'Escarola' : 1, 'Portuguesa' : 4, 'Frango com Catupiry' : 3, 'Napolitana' : 2 },
  			{'nome': 'Luca', 'Marguerita' : 5, 'Quatro queijos' : 4, 'Escarola' : 3, 'Portuguesa' : 4, 'Frango com Catupiry' : 3, 'Napolitana' : 2 }]  
 
-
-
+			
 
 marguerita = []
 quatro_queijos = []
