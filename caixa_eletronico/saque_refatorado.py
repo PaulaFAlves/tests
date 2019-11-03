@@ -38,22 +38,10 @@ relatorio(saque(valor_desejado()))
 
 
 # testes 
-# assert q_100(10) == 0
-# assert q_100(20) == 0
-# assert q_100(50) == 0
-# assert q_100(100) == 1
+assert saque(2) == {2: 1}
+assert saque(10) == {10: 1}
+assert saque(100) == {100: 1}
+assert saque(130) == {100: 1, 20: 1, 10: 1}
+assert saque(1360) == {100: 13, 50: 1, 10: 1}
+assert saque(546890) == {100: 5468, 50: 1, 20: 2}
 
-# assert q_50(10) == 0
-# assert q_50(20) == 0
-# assert q_50(50) == 1
-# assert q_50(100) == 2
-
-# assert q_20(10) == 0
-# assert q_20(20) == 1
-# assert q_20(50) == 2
-# assert q_20(100) == 5
-
-# assert q_10(10) == 1
-# assert q_10(20) == 2
-# assert q_10(50) == 5
-# assert q_10(100) == 10
