@@ -1,0 +1,2207 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Luke%20Skywalker
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//hJJNbwIhEIb/SjNnlA9Xt3L03Fu9tI0xuDu6ZFkgwGqN8b83WLVtUvXI
+        +zwZhhkOULneJpCcgMXPBNL2xhDwAbfa9fFyDhh7kyLIjwNY1SFIeOlbfHpt9ztlWgxAoEG9aRJI
+        4KUAAp2KESSUZUZKh2XljAsgYWWcrYFAbLW9hmulcw3c4y+vRyCw0iE1yz2qnPHpbPYGBDZoa8xB
+        p0yWGtfhzgVTg4QmJR8lpXGnvB5WjiqvqTfKYoqUUyCw1qbLb/lfPVEqsniHTx7w0QPOH/CSwoJA
+        9FhpvN3rmedqCwJbbHRl7ugXgfLi5vVXZ8S+W0gqxEb7O01cDMpvT+1HEuJUtwqoEuaFCcaLARcD
+        Np3zkRwzOebDSVEwxt7zl6j1X02wueCSl3I8GT5P+Vnrg7m5e3TeYJ7RcXH8AgAA//8DALoJJYLy
+        AgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5caeca3eeca-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:17 GMT
+      Etag:
+      - W/"970c5ee46f8d8cdf8c179bbb3974695b"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d6c69c9d1ae5e4a60c565597a5d54a9631573240756; expires=Sat, 07-Nov-20
+        19:19:16 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/2/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWS4/bNhSF/8oF17Je40dGu7QJ2iDtJjPook0wuCavTMKUSFxSdpyi/72gZuw2
+        QMb0QgvhfCDPObwE+LeIJloSnXjUBO8Hb5jgIbLZU4CfUO5FIcib4BQ9GSW6VSGcp9GMuyfJeLSi
+        Ex8imAAICnkP0QwEvWOImj7z5/ETbcla48YS3tqo3bTTSYJ3hFEn4CEig8YAW6IRFIXI7kSqSNqH
+        wRMbtBDZOR9A44FAsTnQ+N36aUNJAXp2QxIMgzZK0ZiILQYCHBX4icNEKgEDoGQXQtKTmx1a/Hoq
+        02/63h9QmXE3G1VMqEjB2cvZc2+JYgEIO3aTB9dDz0TKDQnozU5H4gCWFGxP8Nu0J3jYn45o98SJ
+        SIkpRNxaEzQpQBjpCIEkU7y4dnNMYBpcJDCS4OjYqqS7Hn51UV8sp9Ojg7FgHSt4hxw1/IGKeC7S
+        bQOFQAqOJmrozTjHO7lp3M15zs6K+SSUCR6j1KSe+3FTwFGFlPHFime3pQBmjO5cYY8MTCg1zWDw
+        KKksy1IUQhkmGR2nWeGDGeEjcdAjsSiEZ6cmSUn7BfkEHyeO3wr4ZOQefpc/o7XTIArBZAkDPSmM
+        aVab+zf1ol4tmo0ohNTIKFPdovtL6Bh96KoqHNGbUroKvak8OW+paipRXAXaHHCXA5Y5YJUDmjpL
+        ZF00WRvNm2wXWR9tvs9soW02S5vN0mY7bdeV+FIIb3GkeGVMnvVrh/hCrLLEOku0m9lUiMhBG/+6
+        rQtRNa/v+z+ovgVqboHaG6D2lpXam1a6uwG6hWmemz2QNtLS68Weger1y3BBrlyp/5j1Dcwte93n
+        mXQ90/R4kuZKxBf9yjieiU2WuMsSbZZoZteSCSMp0Ym2bpaLpl007WPTdO26a5flerWu6/rP9PJQ
+        5oJtFvVy0dw/NnW32nTtfblaLtvVOmETp3fID/ftjR1mX//8CwAA//8DAPe24ZnqCAAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5d09a3bd024-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:18 GMT
+      Etag:
+      - W/"126e2153f72e9ac2d1f657cdc0456c26"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d1a2b3edc5fbc3c20390e6ae3937aa2501573240757; expires=Sat, 07-Nov-20
+        19:19:17 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXT2/jNhDFv8osz7Ityfpn3RbZRdB2CxTZAAu0WwQ0NbaI0CRBUjaCot+9oBI7
+        l0bDgy/mD/PevBnJ5j8syKCQ9ewBz6iPCOYAYUT4LsPIMoZWejPgkxxYv82YsailPj4Jxy+K9ewH
+        d5/gcUR4QDvtlRQgPQg3nfZK6uNP91NPekAHPAQunj3sX+bibgqjQu8jEIXgm3FDBndm0gG+GPM8
+        rePR44gOgTuEEZ1BD0bD3oQRvBzQz8jXs1RRE8/oXi6Rn7+On180cPBh0tExnMwZsygejw4S9SD9
+        CIMzcgCFfECXwT1qdFxF4t5JPJvJZzByD/6CNoDUwVwr3PoV3MrAFXA9wLMcNLcWh0jcjVwLVMo4
+        +IMry4PUmL1JgTlEJEZxzxUXQQr4jpqHd/ef/esY0HLHg/QBvsxeP7vTSzznIeDJBg/BwEEhzvQe
+        vcTjq/7V2CXmG0aUDs5cTXyv5gZG4wM/xkguBn7FQcJvWh7H4GeLwCMzoLfoeEA4Se+l0VHMoRcT
+        XnMQ3AZ5Rnjvdr1er1nGBulQBONYz+7RuCPCt0lwzzJmnRkmgfHkQYpn+F3ccaWmE8uYQ4Xc49PA
+        Q1zJMs/rVV6vih3LmBi54yKg86z/i40hWN9vNv7CrVwLs+FWbiwaq3BTbFi2CJQUsKWAigJqCmgo
+        oKWAIicJMomCjKIgsyhJHyXpY0snTgZWkyo12W1N+qjp0ZOzr+leOnJ/SKcN6bQhd6whfbRkty1d
+        Y0cRHbljHTn9jpx+R2a6rTfs74xZxTWGhRfR6/nSi+aNqEmiI4kdSRS0kaXn/IpUNEL3UzQ00tII
+        HUuRkMs8TR+486O0H8/zRmyqj3XfoXqXADVFArQtUyptU6AqBapToCYBalPk2hS5pAS6eZBnHKVQ
+        +PEcr8DS782NqfMEJqVOQzNNglZTJjBtArOjmTbBT1skMAme24QM2+b1SbUo5MJ8386XHv0rsrAB
+        V6Ski9BEQyMtidBFClqmoovUdBUaWfg/eEMSwqftlgle6ORKOv6yo5GEjcvnHRYOecBhvt4U1aoo
+        V2X+WHR9teu33brKt3me/xlv3oO8YfUqr1ZF8Zjv+qruq2rdNWVRlhGbXLyH/6/wQarTvDv//gcA
+        AP//AwD+o32A5g8AAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5d5fde0eec6-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:19 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dc30046e240402ea4e2d540b83c51426e1573240758; expires=Sat, 07-Nov-20
+        19:19:18 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/3/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT2/jNhDFv8qAZ9nWH8uxdVtkF8luE6BIAhRotwjG5NjimiJVchQ3u9jvXlCJ
+        0x4aUwdf/H6eefM4ovVDsGZDohF3xIO34HbALcEXUlpkgnodnKJHrUSzyoTryWq7f5Qej0Y04mY4
+        ENwfno9oDuShxQB+LEMK2H31X22rA7SuI+gNWuJY/gHZOW0JtI0EWkBm6noGduApyIGg1SFqO6/J
+        KrhGC/fOONh510V7UZNmYNlSODl+0oZgj3YfmHwEvuB2i6N0PTDP41fxc6OZDYFyFGD0f7DuCNwi
+        nypffbj5cPnw+RI+3f76+e7TOFYg6YnNc9S3tB8sSGcD+0GydhacBQRLx3Eg3zlPCkKPkiAwjgQ9
+        0dg+atC7I/ndYGJbO1rcaR846soTKlLwkZBbuGf0b85/aym27XpDTCoDjuEOhnWHPBo/EvbOwlEb
+        A6EnY0CSZ9QWlHPdGKjzY7vQoTGwRatifJ62ZMbA40T7vdF2/3oYHO3uPJF6KcBu/P0eDf79PJ/P
+        RSaU9iTZ+bhDWrboFdyi/2tAq0Qmeu/UICmq1+4Yxas5/ILf0X7TaDO4Iuf3BDeDxJDBnZYHuJWX
+        aMzQiUx4MoSBHhVy3NFis65meT0ra5GJ2Aolkw+i+UO0zH1oFotwxF7PpVtgrxc9ud7QoliI7CxQ
+        poAqBSxTQJ0CijxJJF0USRvFKkmsk2klnZbpxJORl8nEyoskkZ5lkzz65LRVctplvRB/ZuLlDjyz
+        ri/6uV15JS6SxDpJbJJEMboOjD60un/f9xuxKN63/h8onwIVU6ByAlROgqop0MUUaD0F2kyAplgq
+        Jlkaz/GJWi0NvX+MJ+DM7rwhZ+6Rf5kpdTZpplxOYOoJzATP8WmPO9+T1GeietXP/LOciDJJVEmi
+        ThKrJLFOEpskce7BPSEvN530hExKNKLMi+WsKGfF+qHIm2rTVNW8rOs8z3+P75dKv2H1LF/OiuIh
+        3zTLVZPX87LMq1UdscHHt83/bbzTphsz/PkPAAAA//8DANOgV3/LCgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5dbccc4d010-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:20 GMT
+      Etag:
+      - W/"08a8ef79d8d6c7c8fc5dc261d67c1ad3"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=ddd4088d2711ff2092bd547f0b5ba27851573240759; expires=Sat, 07-Nov-20
+        19:19:19 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/1/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT4/bNhDFv8qAl15oW/Sfta3bogmSokkQbPfUJliMyVlpEIkkSGpdt8h3Dyh5
+        twHSmD7o9H7km3kzBPSvSJw6ErW4hQ90hLfOk5CCPEdn6IGNqNdSOE+WbfOgAx47UYvfEnAEBE+B
+        nQH3CJqfuIMjhvmn8Mne0YE6iB41xZZ9lBBT4C9sm6w+BtcDQsvGkIUDRpLQ4hPB0dmsp5Y4wCOH
+        mOCJdXLhBNgg25jOMlB2e4Md6sQaXveeA43O+Xs1BLYNZO6AKXUkYSwoa9EzRejRYkMGkoOYCDuI
+        pAONt/sObcxCPj5d/EvMwtAl7jERHAm9s3IEXr2+vX+b1T/ub+8koAUMvQtkpuZHx4SJnYUjpxbI
+        uqFpwbsjhbEXB4ZiCu6Uz5JNHAhyCZRe2vk4hDiQgcPph5oiW46JAmBDNkUJHwNbTXEU3xEjhDwC
+        aF1PgAeHwUA7OceEIc9Ggh5icobR5jmm9ly068jCOYwWE2i0EPOQzuc9Od8RoDUQKCYXaBotkXH9
+        c34Ndvj3aT6fz4UUhgPlYYpavCEXGoJ3g8YopPDBmUHTqGA4we9DSP9IuGP9Bd7rX7Hrhl5IEagj
+        jPRgMOWFVfvtdlZtZsuNkEK3GFAnClHUf4k2JR/rxSIe0fNcuwV6XkwVL9RCyIvAsgSsSsC6BGxK
+        wE0J2JaAXQnYlwBVFYliVKqYlSqGpYppqWJcqhiHKuaxUwvxWYrpdV5Ys0m/tEZnYlUkJsfnp/pz
+        zxfigut/zOoKZnMFs7+CubBE30HqGuia1vK+fZbiiVrWHf08sGfgwlN9QW7KyLaM7KZRetJ8oa6z
+        fin+M7EqEssioYrEeqxaB8JERtRiWan1TC1nqrpX63q5qldqvttVVVX9mf8aDL9gm1m1nil1X+3r
+        9U29Wc632/Vuv83YEPI/xP/6PnLXj3V9/QYAAP//AwANQScFmQgAAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5e15df74bb5-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:21 GMT
+      Etag:
+      - W/"efcda1cd8821a886c81de0c6de9dd6f1"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=df743f5e75c3f1939962d3c7a640ffacb1573240760; expires=Sat, 07-Nov-20
+        19:19:20 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/7/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//hJRBb9swDIX/CqHLLq4dt2kc+NZ26dCu2IYkw4CtQ8FYbMxFkQRKbhYM
+        +++DnHXtYa0vvryPfI8U4V8qcjSkarVsCS6dNARnO9yQDSpT5Dk4TXesVV1lynmybNd3jeDOqFrd
+        dBuCxWa/Q7MhgRYDPKDl0JLOb+XWXlloOQCuAtmGMogtQWDLIZIk/fJqvljCx/nb2bwvFg5k4V7c
+        NqmJxtBSAHffl862noWShFbDjo0B6yIIhQidjWyS9C/Owc5giHBNmrMkJpMVkQVNIYrb/80J6fOF
+        Y3tI2HnvJP51TdJ89unz+c3VRQbvyJKggRtihI+yRosJMIQ6AMJK8IFgPltcLZZnHy5mffdFS8Ah
+        WXoSjATRwT1bDe1hCytxsSWBfptpsjVyv7g+MRkPbPshnbBdgydsei7JP7oQuelbpuhrNPhz/zRT
+        HzMNHcjG5AdbFyJoTJ0S4Nm4CM4CQqBGKMKWQ2Bn+wdwcI2bTZfBriVJnuCMBjRm/7hMzaFxDySk
+        AaExXUrSG3cbehMOdbhyXQx5nucqU5qFmuhE1eo6h+sczlaC23RrXpzuGkrKe4ytSc/0nqwlvc/g
+        OZvBuezRwnknG5UpIUMY6E5jTGd8PCpPj8rjo7JUmWpaFGwiSVD1N9XG6ENdFGGHnvPGFei58OS8
+        oaIsVPYqcDIEnA4B5WCLcjxEHFdDxHSwx3Qw6XQySAznmBbqe6a8QUvxlfUf9GJS9niIKKFl/3LB
+        P6KoXs7wBJWjvu8DtdwYSm2Ti6eG6RWPg/7Kmz8Sx4PEYa5GCCPpx/scjY/Kajma1KdlfTLKT0fj
+        ajr6mn64mp9h6YyrZTmuT8p6XOWTsqom04R1kn6///W9Z7MNRVWo338AAAD//wMAKgSoF9sFAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5e6aa2dcfdc-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:22 GMT
+      Etag:
+      - W/"396ec21ca4a8d4b231eeb445ec3a9355"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d8bb004d3ad903a7e5273bc44f6543ce61573240761; expires=Sat, 07-Nov-20
+        19:19:21 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Luke%20Skywalker
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//hJJNbwIhEIb/SjNnlA9Xt3L03Fu9tI0xuDu6ZFkgwGqN8b83WLVtUvXI
+        +zwZhhkOULneJpCcgMXPBNL2xhDwAbfa9fFyDhh7kyLIjwNY1SFIeOlbfHpt9ztlWgxAoEG9aRJI
+        4KUAAp2KESSUZUZKh2XljAsgYWWcrYFAbLW9hmulcw3c4y+vRyCw0iE1yz2qnPHpbPYGBDZoa8xB
+        p0yWGtfhzgVTg4QmJR8lpXGnvB5WjiqvqTfKYoqUUyCw1qbLb/lfPVEqsniHTx7w0QPOH/CSwoJA
+        9FhpvN3rmedqCwJbbHRl7ugXgfLi5vVXZ8S+W0gqxEb7O01cDMpvT+1HEuJUtwqoEuaFCcaLARcD
+        Np3zkRwzOebDSVEwxt7zl6j1X02wueCSl3I8GT5P+Vnrg7m5e3TeYJ7RcXH8AgAA//8DALoJJYLy
+        AgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5ec79e04c5e-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:22 GMT
+      Etag:
+      - W/"970c5ee46f8d8cdf8c179bbb3974695b"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d00efe7c05d9c2ff0ac01154635d357511573240762; expires=Sat, 07-Nov-20
+        19:19:22 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/2/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWS4/bNhSF/8oF17Je40dGu7QJ2iDtJjPook0wuCavTMKUSFxSdpyi/72gZuw2
+        QMb0QgvhfCDPObwE+LeIJloSnXjUBO8Hb5jgIbLZU4CfUO5FIcib4BQ9GSW6VSGcp9GMuyfJeLSi
+        Ex8imAAICnkP0QwEvWOImj7z5/ETbcla48YS3tqo3bTTSYJ3hFEn4CEig8YAW6IRFIXI7kSqSNqH
+        wRMbtBDZOR9A44FAsTnQ+N36aUNJAXp2QxIMgzZK0ZiILQYCHBX4icNEKgEDoGQXQtKTmx1a/Hoq
+        02/63h9QmXE3G1VMqEjB2cvZc2+JYgEIO3aTB9dDz0TKDQnozU5H4gCWFGxP8Nu0J3jYn45o98SJ
+        SIkpRNxaEzQpQBjpCIEkU7y4dnNMYBpcJDCS4OjYqqS7Hn51UV8sp9Ojg7FgHSt4hxw1/IGKeC7S
+        bQOFQAqOJmrozTjHO7lp3M15zs6K+SSUCR6j1KSe+3FTwFGFlPHFime3pQBmjO5cYY8MTCg1zWDw
+        KKksy1IUQhkmGR2nWeGDGeEjcdAjsSiEZ6cmSUn7BfkEHyeO3wr4ZOQefpc/o7XTIArBZAkDPSmM
+        aVab+zf1ol4tmo0ohNTIKFPdovtL6Bh96KoqHNGbUroKvak8OW+paipRXAXaHHCXA5Y5YJUDmjpL
+        ZF00WRvNm2wXWR9tvs9soW02S5vN0mY7bdeV+FIIb3GkeGVMnvVrh/hCrLLEOku0m9lUiMhBG/+6
+        rQtRNa/v+z+ovgVqboHaG6D2lpXam1a6uwG6hWmemz2QNtLS68Weger1y3BBrlyp/5j1Dcwte93n
+        mXQ90/R4kuZKxBf9yjieiU2WuMsSbZZoZteSCSMp0Ym2bpaLpl007WPTdO26a5flerWu6/rP9PJQ
+        5oJtFvVy0dw/NnW32nTtfblaLtvVOmETp3fID/ftjR1mX//8CwAA//8DAPe24ZnqCAAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5f23f49eed6-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:24 GMT
+      Etag:
+      - W/"126e2153f72e9ac2d1f657cdc0456c26"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d7381e5e374bc6de328b7e5bb5e2d9ac71573240763; expires=Sat, 07-Nov-20
+        19:19:23 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXT2/jNhDFv8osz7Ityfpn3RbZRdB2CxTZAAu0WwQ0NbaI0CRBUjaCot+9oBI7
+        l0bDgy/mD/PevBnJ5j8syKCQ9ewBz6iPCOYAYUT4LsPIMoZWejPgkxxYv82YsailPj4Jxy+K9ewH
+        d5/gcUR4QDvtlRQgPQg3nfZK6uNP91NPekAHPAQunj3sX+bibgqjQu8jEIXgm3FDBndm0gG+GPM8
+        rePR44gOgTuEEZ1BD0bD3oQRvBzQz8jXs1RRE8/oXi6Rn7+On180cPBh0tExnMwZsygejw4S9SD9
+        CIMzcgCFfECXwT1qdFxF4t5JPJvJZzByD/6CNoDUwVwr3PoV3MrAFXA9wLMcNLcWh0jcjVwLVMo4
+        +IMry4PUmL1JgTlEJEZxzxUXQQr4jpqHd/ef/esY0HLHg/QBvsxeP7vTSzznIeDJBg/BwEEhzvQe
+        vcTjq/7V2CXmG0aUDs5cTXyv5gZG4wM/xkguBn7FQcJvWh7H4GeLwCMzoLfoeEA4Se+l0VHMoRcT
+        XnMQ3AZ5Rnjvdr1er1nGBulQBONYz+7RuCPCt0lwzzJmnRkmgfHkQYpn+F3ccaWmE8uYQ4Xc49PA
+        Q1zJMs/rVV6vih3LmBi54yKg86z/i40hWN9vNv7CrVwLs+FWbiwaq3BTbFi2CJQUsKWAigJqCmgo
+        oKWAIicJMomCjKIgsyhJHyXpY0snTgZWkyo12W1N+qjp0ZOzr+leOnJ/SKcN6bQhd6whfbRkty1d
+        Y0cRHbljHTn9jpx+R2a6rTfs74xZxTWGhRfR6/nSi+aNqEmiI4kdSRS0kaXn/IpUNEL3UzQ00tII
+        HUuRkMs8TR+486O0H8/zRmyqj3XfoXqXADVFArQtUyptU6AqBapToCYBalPk2hS5pAS6eZBnHKVQ
+        +PEcr8DS782NqfMEJqVOQzNNglZTJjBtArOjmTbBT1skMAme24QM2+b1SbUo5MJ8386XHv0rsrAB
+        V6Ski9BEQyMtidBFClqmoovUdBUaWfg/eEMSwqftlgle6ORKOv6yo5GEjcvnHRYOecBhvt4U1aoo
+        V2X+WHR9teu33brKt3me/xlv3oO8YfUqr1ZF8Zjv+qruq2rdNWVRlhGbXLyH/6/wQarTvDv//gcA
+        AP//AwD+o32A5g8AAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5f88eaad048-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:25 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d8c04671a6493b4401cc2e9f44efd31471573240764; expires=Sat, 07-Nov-20
+        19:19:24 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/3/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJZPb+M2EMW/yoBn2dYfy7F1W2QXyW4ToEgCFGi3CMbk2OKaIlVyFDe7
+        2O9eUInTHhpTB1/8fp558zii9UOwZkOiEXfEg7fgdsAtwRdSWmSCeh2coketRLPKhOvJart/lB6P
+        RjTiZjgQ3B+ej2gO5KHFAH4sQwrYffVfbasDtK4j6A1a4lj+Adk5bQm0jQRaQGbqegZ24CnIgaDV
+        IWo7r8kquEYL98442HnXRXtRk2Zg2VI4OX7ShmCPdh+YfAS+4HaLo3Q9MM/jV/Fzo5kNgXIUYPR/
+        sO4I3CKfKl99uPlw+fD5Ej7d/vr57tM4ViDpic1z1Le0HyxIZwP7QbJ2FpwFBEvHcSDfOU8KQo+S
+        IDCOBD3R2D5q0Lsj+d1gYls7WtxpHzjqyhMqUvCRkFu4Z/Rvzn9rKbbtekNMKgOO4Q6GdYc8Gj8S
+        9s7CURsDoSdjQJJn1BaUc90YqPNju9ChMbBFq2J8nrZkxsDjRPu90Xb/ehgc7e48kXopwG78/R4N
+        /v08n89FJpT2JNn5uENatugV3KL/a0CrRCZ679QgKarX7hjFqzn8gt/RftNoM7gi5/cEN4PEkMGd
+        lge4lZdozNCJTHgyhIEeFXLc0WKzrmZ5PStrkYnYCiWTD6L5Q7TMfWgWi3DEXs+lW2CvFz253tCi
+        WIjsLFCmgCoFLFNAnQKKPEkkXRRJG8UqSayTaSWdlunEk5GXycTKiySRnmWTPPrktFVy2mW9EH9m
+        4uUOPLOuL/q5XXklLpLEOklskkQxug6MPrS6f9/3G7Eo3rf+HyifAhVToHICVE6CqinQxRRoPQXa
+        TICmWComWRrP8YlaLQ29f4wn4MzuvCFn7pF/mSl1NmmmXE5g6gnMBM/xaY8735PUZ6J61c/8s5yI
+        MklUSaJOEqsksU4SmyRx7sE9IS83nfSETEo0osyL5awoZ8X6ocibatNU1bys6zzPf4/vl0q/YfUs
+        X86K4iHfNMtVk9fzssyrVR2xwce3zf9tvNOmGzP8+Q8AAAD//wMA06BXf8sKAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e5ff19264a88-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:26 GMT
+      Etag:
+      - W/"08a8ef79d8d6c7c8fc5dc261d67c1ad3"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dc0d814f8b75e2779887bd3df7b5e10dd1573240765; expires=Sat, 07-Nov-20
+        19:19:25 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/1/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT4/bNhDFv8qAl15oW/Sfta3bogmSokkQbPfUJliMyVlpEIkkSGpdt8h3Dyh5
+        twHSmD7o9H7km3kzBPSvSJw6ErW4hQ90hLfOk5CCPEdn6IGNqNdSOE+WbfOgAx47UYvfEnAEBE+B
+        nQH3CJqfuIMjhvmn8Mne0YE6iB41xZZ9lBBT4C9sm6w+BtcDQsvGkIUDRpLQ4hPB0dmsp5Y4wCOH
+        mOCJdXLhBNgg25jOMlB2e4Md6sQaXveeA43O+Xs1BLYNZO6AKXUkYSwoa9EzRejRYkMGkoOYCDuI
+        pAONt/sObcxCPj5d/EvMwtAl7jERHAm9s3IEXr2+vX+b1T/ub+8koAUMvQtkpuZHx4SJnYUjpxbI
+        uqFpwbsjhbEXB4ZiCu6Uz5JNHAhyCZRe2vk4hDiQgcPph5oiW46JAmBDNkUJHwNbTXEU3xEjhDwC
+        aF1PgAeHwUA7OceEIc9Ggh5icobR5jmm9ly068jCOYwWE2i0EPOQzuc9Od8RoDUQKCYXaBotkXH9
+        c34Ndvj3aT6fz4UUhgPlYYpavCEXGoJ3g8YopPDBmUHTqGA4we9DSP9IuGP9Bd7rX7Hrhl5IEagj
+        jPRgMOWFVfvtdlZtZsuNkEK3GFAnClHUf4k2JR/rxSIe0fNcuwV6XkwVL9RCyIvAsgSsSsC6BGxK
+        wE0J2JaAXQnYlwBVFYliVKqYlSqGpYppqWJcqhiHKuaxUwvxWYrpdV5Ys0m/tEZnYlUkJsfnp/pz
+        zxfigut/zOoKZnMFs7+CubBE30HqGuia1vK+fZbiiVrWHf08sGfgwlN9QW7KyLaM7KZRetJ8oa6z
+        fin+M7EqEssioYrEeqxaB8JERtRiWan1TC1nqrpX63q5qldqvttVVVX9mf8aDL9gm1m1nil1X+3r
+        9U29Wc632/Vuv83YEPI/xP/6PnLXj3V9/QYAAP//AwANQScFmQgAAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e6065b37d050-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:26 GMT
+      Etag:
+      - W/"efcda1cd8821a886c81de0c6de9dd6f1"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d7b89931a076eaffaa201a1e75b5054d01573240766; expires=Sat, 07-Nov-20
+        19:19:26 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/7/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4SUQW/bMAyF/wqhyy6uHbdpHPjWdunQrtiGJMOArUPBWGzMRZEESm4WDPvvg5x1
+        7WGtL768j3yPFOFfKnI0pGq1bAkunTQEZzvckA0qU+Q5OE13rFVdZcp5smzXd43gzqha3XQbgsVm
+        v0OzIYEWAzyg5dCSzm/l1l5ZaDkArgLZhjKILUFgyyGSJP3yar5Ywsf529m8LxYOZOFe3DapicbQ
+        UgB335fOtp6FkoRWw46NAesiCIUInY1skvQvzsHOYIhwTZqzJCaTFZEFTSGK2//NCenzhWN7SNh5
+        7yT+dU3SfPbp8/nN1UUG78iSoIEbYoSPskaLCTCEOgDCSvCBYD5bXC2WZx8uZn33RUvAIVl6EowE
+        0cE9Ww3tYQsrcbElgX6babI1cr+4PjEZD2z7IZ2wXYMnbHouyT+6ELnpW6boazT4c/80Ux8zDR3I
+        xuQHWxciaEydEuDZuAjOAkKgRijClkNgZ/sHcHCNm02Xwa4lSZ7gjAY0Zv+4TM2hcQ8kpAGhMV1K
+        0ht3G3oTDnW4cl0MeZ7nKlOahZroRNXqOofrHM5Wgtt0a16c7hpKynuMrUnP9J6sJb3P4Dmbwbns
+        0cJ5JxuVKSFDGOhOY0xnfDwqT4/K46OyVJlqWhRsIklQ9TfVxuhDXRRhh57zxhXoufDkvKGiLFT2
+        KnAyBJwOAeVgi3I8RBxXQ8R0sMd0MOl0MkgM55gW6numvEFL8ZX1H/RiUvZ4iCihZf9ywT+iqF7O
+        8ASVo77vA7XcGEptk4unhukVj4P+yps/EseDxGGuRggj6cf7HI2Pymo5mtSnZX0yyk9H42o6+pp+
+        uJqfYemMq2U5rk/Kelzlk7KqJtOEdZJ+v//1vWezDUVVqN9/AAAA//8DACoEqBfbBQAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e609ede8d050-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:27 GMT
+      Etag:
+      - W/"396ec21ca4a8d4b231eeb445ec3a9355"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d5b9edff267e42b514f7642234b37e0bd1573240767; expires=Sat, 07-Nov-20
+        19:19:27 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Luke%20Skywalker
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//hJJNbwIhEIb/SjNnlA9Xt3L03Fu9tI0xuDu6ZFkgwGqN8b83WLVtUvXI
+        +zwZhhkOULneJpCcgMXPBNL2xhDwAbfa9fFyDhh7kyLIjwNY1SFIeOlbfHpt9ztlWgxAoEG9aRJI
+        4KUAAp2KESSUZUZKh2XljAsgYWWcrYFAbLW9hmulcw3c4y+vRyCw0iE1yz2qnPHpbPYGBDZoa8xB
+        p0yWGtfhzgVTg4QmJR8lpXGnvB5WjiqvqTfKYoqUUyCw1qbLb/lfPVEqsniHTx7w0QPOH/CSwoJA
+        9FhpvN3rmedqCwJbbHRl7ugXgfLi5vVXZ8S+W0gqxEb7O01cDMpvT+1HEuJUtwqoEuaFCcaLARcD
+        Np3zkRwzOebDSVEwxt7zl6j1X02wueCSl3I8GT5P+Vnrg7m5e3TeYJ7RcXH8AgAA//8DALoJJYLy
+        AgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e60fca88d010-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:28 GMT
+      Etag:
+      - W/"970c5ee46f8d8cdf8c179bbb3974695b"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d9afb38949be76d067bd9e660c9f01d061573240767; expires=Sat, 07-Nov-20
+        19:19:27 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/2/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWS4/bNhSF/8oF17Je40dGu7QJ2iDtJjPook0wuCavTMKUSFxSdpyi/72gZuw2
+        QMb0QgvhfCDPObwE+LeIJloSnXjUBO8Hb5jgIbLZU4CfUO5FIcib4BQ9GSW6VSGcp9GMuyfJeLSi
+        Ex8imAAICnkP0QwEvWOImj7z5/ETbcla48YS3tqo3bTTSYJ3hFEn4CEig8YAW6IRFIXI7kSqSNqH
+        wRMbtBDZOR9A44FAsTnQ+N36aUNJAXp2QxIMgzZK0ZiILQYCHBX4icNEKgEDoGQXQtKTmx1a/Hoq
+        02/63h9QmXE3G1VMqEjB2cvZc2+JYgEIO3aTB9dDz0TKDQnozU5H4gCWFGxP8Nu0J3jYn45o98SJ
+        SIkpRNxaEzQpQBjpCIEkU7y4dnNMYBpcJDCS4OjYqqS7Hn51UV8sp9Ojg7FgHSt4hxw1/IGKeC7S
+        bQOFQAqOJmrozTjHO7lp3M15zs6K+SSUCR6j1KSe+3FTwFGFlPHFime3pQBmjO5cYY8MTCg1zWDw
+        KKksy1IUQhkmGR2nWeGDGeEjcdAjsSiEZ6cmSUn7BfkEHyeO3wr4ZOQefpc/o7XTIArBZAkDPSmM
+        aVab+zf1ol4tmo0ohNTIKFPdovtL6Bh96KoqHNGbUroKvak8OW+paipRXAXaHHCXA5Y5YJUDmjpL
+        ZF00WRvNm2wXWR9tvs9soW02S5vN0mY7bdeV+FIIb3GkeGVMnvVrh/hCrLLEOku0m9lUiMhBG/+6
+        rQtRNa/v+z+ovgVqboHaG6D2lpXam1a6uwG6hWmemz2QNtLS68Weger1y3BBrlyp/5j1Dcwte93n
+        mXQ90/R4kuZKxBf9yjieiU2WuMsSbZZoZteSCSMp0Ym2bpaLpl007WPTdO26a5flerWu6/rP9PJQ
+        5oJtFvVy0dw/NnW32nTtfblaLtvVOmETp3fID/ftjR1mX//8CwAA//8DAPe24ZnqCAAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e6120970d04c-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:28 GMT
+      Etag:
+      - W/"126e2153f72e9ac2d1f657cdc0456c26"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d59a78db1c775713b8c264cf8e43ecc671573240768; expires=Sat, 07-Nov-20
+        19:19:28 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJdPb+M2EMW/yizPsi3J+mfdFtlF0HYLFNkAC7RbBDQ1tojQJEFSNoKi
+        372gEjuXRsODL+YP8968GcnmPyzIoJD17AHPqI8I5gBhRPguw8gyhlZ6M+CTHFi/zZixqKU+PgnH
+        L4r17Ad3n+BxRHhAO+2VFCA9CDed9krq40/3U096QAc8BC6ePexf5uJuCqNC7yMQheCbcUMGd2bS
+        Ab4Y8zyt49HjiA6BO4QRnUEPRsPehBG8HNDPyNezVFETz+heLpGfv46fXzRw8GHS0TGczBmzKB6P
+        DhL1IP0IgzNyAIV8QJfBPWp0XEXi3kk8m8lnMHIP/oI2gNTBXCvc+hXcysAVcD3Asxw0txaHSNyN
+        XAtUyjj4gyvLg9SYvUmBOUQkRnHPFRdBCviOmod395/96xjQcseD9AG+zF4/u9NLPOch4MkGD8HA
+        QSHO9B69xOOr/tXYJeYbRpQOzlxNfK/mBkbjAz/GSC4GfsVBwm9aHsfgZ4vAIzOgt+h4QDhJ76XR
+        UcyhFxNecxDcBnlGeO92vV6vWcYG6VAE41jP7tG4I8K3SXDPMmadGSaB8eRBimf4XdxxpaYTy5hD
+        hdzj08BDXMkyz+tVXq+KHcuYGLnjIqDzrP+LjSFY3282/sKtXAuz4VZuLBqrcFNsWLYIlBSwpYCK
+        AmoKaCigpYAiJwkyiYKMoiCzKEkfJeljSydOBlaTKjXZbU36qOnRk7Ov6V46cn9Ipw3ptCF3rCF9
+        tGS3LV1jRxEduWMdOf2OnH5HZrqtN+zvjFnFNYaFF9Hr+dKL5o2oSaIjiR1JFLSRpef8ilQ0QvdT
+        NDTS0ggdS5GQyzxNH7jzo7Qfz/NGbKqPdd+hepcANUUCtC1TKm1ToCoFqlOgJgFqU+TaFLmkBLp5
+        kGccpVD48RyvwNLvzY2p8wQmpU5DM02CVlMmMG0Cs6OZNsFPWyQwCZ7bhAzb5vVJtSjkwnzfzpce
+        /SuysAFXpKSL0ERDIy2J0EUKWqaii9R0FRpZ+D94QxLCp+2WCV7o5Eo6/rKjkYSNy+cdFg55wGG+
+        3hTVqihXZf5YdH2167fdusq3eZ7/GW/eg7xh9SqvVkXxmO/6qu6rat01ZVGWEZtcvIf/r/BBqtO8
+        O//+BwAA//8DAP6jfYDmDwAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e614bfc9d000-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:29 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d8eb8a0aaf41bbfe948764a913b3d7bad1573240768; expires=Sat, 07-Nov-20
+        19:19:28 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/3/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJZPb+M2EMW/yoBn2dYfy7F1W2QXyW4ToEgCFGi3CMbk2OKaIlVyFDe7
+        2O9eUInTHhpTB1/8fp558zii9UOwZkOiEXfEg7fgdsAtwRdSWmSCeh2coketRLPKhOvJart/lB6P
+        RjTiZjgQ3B+ej2gO5KHFAH4sQwrYffVfbasDtK4j6A1a4lj+Adk5bQm0jQRaQGbqegZ24CnIgaDV
+        IWo7r8kquEYL98442HnXRXtRk2Zg2VI4OX7ShmCPdh+YfAS+4HaLo3Q9MM/jV/Fzo5kNgXIUYPR/
+        sO4I3CKfKl99uPlw+fD5Ej7d/vr57tM4ViDpic1z1Le0HyxIZwP7QbJ2FpwFBEvHcSDfOU8KQo+S
+        IDCOBD3R2D5q0Lsj+d1gYls7WtxpHzjqyhMqUvCRkFu4Z/Rvzn9rKbbtekNMKgOO4Q6GdYc8Gj8S
+        9s7CURsDoSdjQJJn1BaUc90YqPNju9ChMbBFq2J8nrZkxsDjRPu90Xb/ehgc7e48kXopwG78/R4N
+        /v08n89FJpT2JNn5uENatugV3KL/a0CrRCZ679QgKarX7hjFqzn8gt/RftNoM7gi5/cEN4PEkMGd
+        lge4lZdozNCJTHgyhIEeFXLc0WKzrmZ5PStrkYnYCiWTD6L5Q7TMfWgWi3DEXs+lW2CvFz253tCi
+        WIjsLFCmgCoFLFNAnQKKPEkkXRRJG8UqSayTaSWdlunEk5GXycTKiySRnmWTPPrktFVy2mW9EH9m
+        4uUOPLOuL/q5XXklLpLEOklskkQxug6MPrS6f9/3G7Eo3rf+HyifAhVToHICVE6CqinQxRRoPQXa
+        TICmWComWRrP8YlaLQ29f4wn4MzuvCFn7pF/mSl1NmmmXE5g6gnMBM/xaY8735PUZ6J61c/8s5yI
+        MklUSaJOEqsksU4SmyRx7sE9IS83nfSETEo0osyL5awoZ8X6ocibatNU1bys6zzPf4/vl0q/YfUs
+        X86K4iHfNMtVk9fzssyrVR2xwce3zf9tvNOmGzP8+Q8AAAD//wMA06BXf8sKAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e619cd94d014-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:30 GMT
+      Etag:
+      - W/"08a8ef79d8d6c7c8fc5dc261d67c1ad3"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d577fb64df301c161ee8d833caab65b901573240769; expires=Sat, 07-Nov-20
+        19:19:29 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/1/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT4/bNhDFv8qAl15oW/Sfta3bogmSokkQbPfUJliMyVlpEIkkSGpdt8h3Dyh5
+        twHSmD7o9H7km3kzBPSvSJw6ErW4hQ90hLfOk5CCPEdn6IGNqNdSOE+WbfOgAx47UYvfEnAEBE+B
+        nQH3CJqfuIMjhvmn8Mne0YE6iB41xZZ9lBBT4C9sm6w+BtcDQsvGkIUDRpLQ4hPB0dmsp5Y4wCOH
+        mOCJdXLhBNgg25jOMlB2e4Md6sQaXveeA43O+Xs1BLYNZO6AKXUkYSwoa9EzRejRYkMGkoOYCDuI
+        pAONt/sObcxCPj5d/EvMwtAl7jERHAm9s3IEXr2+vX+b1T/ub+8koAUMvQtkpuZHx4SJnYUjpxbI
+        uqFpwbsjhbEXB4ZiCu6Uz5JNHAhyCZRe2vk4hDiQgcPph5oiW46JAmBDNkUJHwNbTXEU3xEjhDwC
+        aF1PgAeHwUA7OceEIc9Ggh5icobR5jmm9ly068jCOYwWE2i0EPOQzuc9Od8RoDUQKCYXaBotkXH9
+        c34Ndvj3aT6fz4UUhgPlYYpavCEXGoJ3g8YopPDBmUHTqGA4we9DSP9IuGP9Bd7rX7Hrhl5IEagj
+        jPRgMOWFVfvtdlZtZsuNkEK3GFAnClHUf4k2JR/rxSIe0fNcuwV6XkwVL9RCyIvAsgSsSsC6BGxK
+        wE0J2JaAXQnYlwBVFYliVKqYlSqGpYppqWJcqhiHKuaxUwvxWYrpdV5Ys0m/tEZnYlUkJsfnp/pz
+        zxfigut/zOoKZnMFs7+CubBE30HqGuia1vK+fZbiiVrWHf08sGfgwlN9QW7KyLaM7KZRetJ8oa6z
+        fin+M7EqEssioYrEeqxaB8JERtRiWan1TC1nqrpX63q5qldqvttVVVX9mf8aDL9gm1m1nil1X+3r
+        9U29Wc632/Vuv83YEPI/xP/6PnLXj3V9/QYAAP//AwANQScFmQgAAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e6204fd1d000-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:31 GMT
+      Etag:
+      - W/"efcda1cd8821a886c81de0c6de9dd6f1"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d89f500c7d3f3e662c8b05e168bc084ff1573240770; expires=Sat, 07-Nov-20
+        19:19:30 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/7/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4SUQW/bMAyF/wqhyy6uHbdpHPjWdunQrtiGJMOArUPBWGzMRZEESm4WDPvvg5x1
+        7WGtL768j3yPFOFfKnI0pGq1bAkunTQEZzvckA0qU+Q5OE13rFVdZcp5smzXd43gzqha3XQbgsVm
+        v0OzIYEWAzyg5dCSzm/l1l5ZaDkArgLZhjKILUFgyyGSJP3yar5Ywsf529m8LxYOZOFe3DapicbQ
+        UgB335fOtp6FkoRWw46NAesiCIUInY1skvQvzsHOYIhwTZqzJCaTFZEFTSGK2//NCenzhWN7SNh5
+        7yT+dU3SfPbp8/nN1UUG78iSoIEbYoSPskaLCTCEOgDCSvCBYD5bXC2WZx8uZn33RUvAIVl6EowE
+        0cE9Ww3tYQsrcbElgX6babI1cr+4PjEZD2z7IZ2wXYMnbHouyT+6ELnpW6boazT4c/80Ux8zDR3I
+        xuQHWxciaEydEuDZuAjOAkKgRijClkNgZ/sHcHCNm02Xwa4lSZ7gjAY0Zv+4TM2hcQ8kpAGhMV1K
+        0ht3G3oTDnW4cl0MeZ7nKlOahZroRNXqOofrHM5Wgtt0a16c7hpKynuMrUnP9J6sJb3P4Dmbwbns
+        0cJ5JxuVKSFDGOhOY0xnfDwqT4/K46OyVJlqWhRsIklQ9TfVxuhDXRRhh57zxhXoufDkvKGiLFT2
+        KnAyBJwOAeVgi3I8RBxXQ8R0sMd0MOl0MkgM55gW6numvEFL8ZX1H/RiUvZ4iCihZf9ywT+iqF7O
+        8ASVo77vA7XcGEptk4unhukVj4P+yps/EseDxGGuRggj6cf7HI2Pymo5mtSnZX0yyk9H42o6+pp+
+        uJqfYemMq2U5rk/Kelzlk7KqJtOEdZJ+v//1vWezDUVVqN9/AAAA//8DACoEqBfbBQAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e627ef4feeba-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:32 GMT
+      Etag:
+      - W/"396ec21ca4a8d4b231eeb445ec3a9355"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dc2a455a110be818be48093da7a53d1bb1573240771; expires=Sat, 07-Nov-20
+        19:19:31 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Skywalker
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//xNRBb5swFAfwrzK9s4ttMBB8W8+7NZdtiiqXvBQLY5ANzaIq331y2yRL
+        VwLTtvaI3x/z8PvJj1C2g+1BJgQs/uhB2sEYAp3DB90O/vDs0A+m9yC/P4JVDYKEL0ONn27q3VaZ
+        Gh0QqFDfVz1I4HkMBBrlPUjI81BS2t2WrWkdSLgzrV0DAV9re1zcKB32wB3+khsQCNxp11e3O1Rh
+        jRfX11+BwD3aNYaFRpkQqtoGt60za5BQ9X3nJaV+qzodlS1VnaadURZ7TzkFAhttmvAvb0efqjQO
+        wQv1bKKeTNT5RD2nsCLgOyw1jvf6Ug+7rQg8YKVLcyF+CFAuRj9/zCTsuYVeOV/p7kIThwTl46d2
+        CsXx076lQ9VjGFjMuLji8RUrljyRKZMpjzIhGGPfAom1Po/FbBlzyXOZZtGi4C+xwZnR2WPbGQxn
+        tCdHvp+tqrUdAbxYnAAvxL8ELHj0boTTCWJimvh/JChmEBTZHxNMixkEs3RGKClGnHK25JmMmRQi
+        SoK/KacsSuJ8vtNzqDdVo0eYZsmJ6WBr227t71ZVWc+x6p5fPsOax6+obvAjsf4NxleK3p5rsQzT
+        yqXgET9eLBfnKtj8+0ckFPar/U8AAAD//wMAJnlLcHMHAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e62efd42cfdc-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:33 GMT
+      Etag:
+      - W/"8a791001aa491c40284fc813c4eae8bd"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=ddb39eea710e605a39fc29f0df913fc0c1573240772; expires=Sat, 07-Nov-20
+        19:19:32 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=C4PO
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//qlZKzi/NK1GyMtBRykutKFGyyivNydFRKihKLcvMLy2G8YtSi0tzSoqV
+        rKJjawEAAAD//wMAcO3eUzQAAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e635296acff8-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:34 GMT
+      Etag:
+      - W/"4200165871240e4de02c79cbd62d9180"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d6980d908fdf701925b81293d8705365a1573240773; expires=Sat, 07-Nov-20
+        19:19:33 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Anakin%20Skywalker
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJFNTsMwFISvgmbtxnaa/nkHV6AbQBUyySux4tiR7VAqxN2RUUtBooWl
+        Zz69GWveUPvRJSjJ4Og1QbnRWoYh0IvxYzy+A8XRpgj18Aane4LCtdOdcVe33X6nbUcBDC2Z5zZB
+        QS6XYOh1jFBYVtnSJjzW3voAhSfrXQOG2Bn3JW61yTdoT9+4kcDwZEJqH/eks1bJYnVzcweGZ3IN
+        ZanXNmOt72nng22g0KY0RMV53OnBFLXnejB8sNpRilxyMGyN7fN/fkc/XT7L4AW/+sOfc2wY4kC1
+        ofNZBz/X2jC8UGtqewE/Arw6H39iDhWSDrE1w4USR4LPVmfPnqD57B/QdPUZXgfSifIqpZDVRJYT
+        KdZyrkqhqqqYSiGEuM/LN+YnVop1KZVcqJkopuXigI3Bnh2Y/GCJS8nxvnn/AAAA//8DAA7nssLc
+        AgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e63a5c13d01c-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:35 GMT
+      Etag:
+      - W/"416eb3e737fe44f4410e5fac2ac10c99"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=da97f493244012ffc868e43ecd875563f1573240774; expires=Sat, 07-Nov-20
+        19:19:34 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/5/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXTXPbNhCG/woGZ4pfEkmJN8dN04+kaR310CQdzxpcmTsGAQ4Ays10+t87oGSn
+        nYm1POi0D3f3fXcBkX/LQEGjbOVVCKAehD2I0KO41tagl4nEkbzt8JY62ZaJtCMaMve3ysGjlq3c
+        9+hQkBeTceiDIDM//gY0qEDqs/tsPqCBgKn4gEd0oEXo7eTBdMJbDS4S/osPOHjRwxFFh0qDwy7m
+        oTlMJqAJZI0XwQqNkYpFbnCc7jSpNELxt+/JC48jOAjkgxjsEQc0IYnByXTo5uc0QofO9zSe1cbw
+        EHtwZCcvru1kgvjO2ocpET34OQwdCgqio8OB1KSDONhzNhooYBchMw136GLSn7Aj8bOh+z7MTQ9A
+        JgAZEbERQaGIDlgXezp7dg8a/vryLGa2zTpxNVAHGpKZOVg34GzKbxOiiaV+gTtrkzgCh2FycTox
+        Huz/BiFOU4i9HG2YFdtTWeUokAItyPsJY0blEMI5DRhxdfPuD/H+e7H/4bW4ef3r76/e/nh9rgDe
+        R59jGntE99ijHk5WRAPSNE1lIjtyqIJ1spVv0Lp7FG8nBXG3Rme7SWGM3JB6EO/UNWg9DTKRDjWC
+        x9sOQlzOMs/LVV6tilomUvXgQAV0XrafZB/C6Nss848wUqpsBiNlI9pRY1ZmMrkIrDmg5oCGA4qc
+        JQqOKNkcJZ+DN4N1Y83asWE73bBVNmyVilVbsWorto9qyxI7dn9YP2pWS81qqfk93rBExRLsXGr2
+        NNSspzXracN62rCeNqynDetpw3rasJ42/AXDetqwnm75s19l8s9EjhoMhgv36imeXah4JnYsceli
+        fEIKHpn79gHmP/SXO38mLl2VX6H1bgF04Sr7D9QsgbZLoCU9rcsFULUI2s7WHrEnpfFlZ5+A7OXj
+        8BVZwlQLmJpnqnwBUyxg1guYBbqqBbqqJbqa08qPqOjCWM7xiwvxhKxZZEGSikVqlih4YkEnGz4L
+        r7jg9ZRbHtnx7eY8crrl5hdz7Ob34WKzKspVme+LvK2atmrS7bbO8/xj/Gbr6BmrVvlmVRT7fNdu
+        qjYv0rpc77ZlxCYXv+C+WfhAevBZlcl//gUAAP//AwCjRKyzIQ4AAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e641889ccff0-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:36 GMT
+      Etag:
+      - W/"bc28b26d01b8dac2e52ad696a6c53bb9"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dd08a007117a7d13ece7904d177325b1a1573240775; expires=Sat, 07-Nov-20
+        19:19:35 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/4/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXTY/bNhCG/wrBs6wvi7al6wJJ0SZBkS5QIEmxGJNjiw1FEiS1G6Pofy+o9W56
+        SDw6+DQP9c48pCnoH550MsgHfj8i+30Em9zE3qMFibzg6HV0Ch+04kNTcOfRant+kAGeTF4zh8lp
+        w0aIDO15NidULI34JXyxb8GATFqyj+jno9GyZDkiwTdI2tmMuBNLARSy4OaEkSXH3JzMRdsziwlC
+        ZuIlJpwi05Fpy5SOfk5Y5kr+/eJ8hpNjAaMzj5jT2QQp4bL6SaeRATsaJ7/mIHdiCkGZSy4eISWD
+        cdQ+Fsu6c0BUF3afe8rAG1QYlm6XCWNy3qNiYMzS2aj9S3peHScwhnkDFtN1ug9wdO612T9HbZ4b
+        vHP2HDDG3M9V14slhlYZjNFcmMIjJIy5mkYdGRgIUw6UI2ib1+Ij2hSLZwLZH7MPOCG7G8FKNMaF
+        3PfSK8qAKT9TRw9Jjnmfnhz7FZXO9d+sPo/pRcMMQWmwub1c9AgSGVjF/p5j0hLzTlzbPoOBb5ci
+        O4iYdS5PkM6ejJapLMuSF1zpgDK5wAf+Fl04I3s3S4i84D44NUvMlY9afmXv5R0YM0+84AENQsQH
+        BSkfz6bv+00tNk3PCy5HCCAThsiHz3xMycehquITeF1KV4HXlUfnDVZtxYubwJYCmpokGpLYUURL
+        prRkypYelpx225EEOct2TxIHkugpoiONdaSxjjTWkcY60lhHGutIHx3pQ5A+BOlDkD4E6UOQPoQg
+        CdKYIM+YIJ0K+ozRJ1lU/K+CP9/6N26j53p1o6cr0ZNEsyTm9+Py6vpp5itx66/yP6hZAW1XQe0a
+        qF/GeMRRS4M/n+IFuHV3fWe6FYxYwexWMPsVzIFm8h2U99Oj1Dc8XOvVjQ24Ei1J7EiioWMaOqfZ
+        0khHI4JGVky0p5EDjfS0/ppGVmwibbel7ba03Za229J22/1yiGVASKj4wNu66TZNu2n6+2Y3iHYQ
+        otx3dV3Xn/JnhdKvmNjU3aZp7ut+6MTQHMrdod/WTcbmkD8yfhh80maKVVfxf/8DAAD//wMAFUg8
+        qMIMAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e648aae94b55-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:37 GMT
+      Etag:
+      - W/"f9ed1b727fbc3acc9c257e3942965a9a"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d309f0b3220dafa5b7168970440097a2a1573240777; expires=Sat, 07-Nov-20
+        19:19:37 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJdPb+M2EMW/yizPsi3J+mfdFtlF0HYLFNkAC7RbBDQ1tojQJEFSNoKi
+        372gEjuXRsODL+YP8968GcnmPyzIoJD17AHPqI8I5gBhRPguw8gyhlZ6M+CTHFi/zZixqKU+PgnH
+        L4r17Ad3n+BxRHhAO+2VFCA9CDed9krq40/3U096QAc8BC6ePexf5uJuCqNC7yMQheCbcUMGd2bS
+        Ab4Y8zyt49HjiA6BO4QRnUEPRsPehBG8HNDPyNezVFETz+heLpGfv46fXzRw8GHS0TGczBmzKB6P
+        DhL1IP0IgzNyAIV8QJfBPWp0XEXi3kk8m8lnMHIP/oI2gNTBXCvc+hXcysAVcD3Asxw0txaHSNyN
+        XAtUyjj4gyvLg9SYvUmBOUQkRnHPFRdBCviOmod395/96xjQcseD9AG+zF4/u9NLPOch4MkGD8HA
+        QSHO9B69xOOr/tXYJeYbRpQOzlxNfK/mBkbjAz/GSC4GfsVBwm9aHsfgZ4vAIzOgt+h4QDhJ76XR
+        UcyhFxNecxDcBnlGeO92vV6vWcYG6VAE41jP7tG4I8K3SXDPMmadGSaB8eRBimf4XdxxpaYTy5hD
+        hdzj08BDXMkyz+tVXq+KHcuYGLnjIqDzrP+LjSFY3282/sKtXAuz4VZuLBqrcFNsWLYIlBSwpYCK
+        AmoKaCigpYAiJwkyiYKMoiCzKEkfJeljSydOBlaTKjXZbU36qOnRk7Ov6V46cn9Ipw3ptCF3rCF9
+        tGS3LV1jRxEduWMdOf2OnH5HZrqtN+zvjFnFNYaFF9Hr+dKL5o2oSaIjiR1JFLSRpef8ilQ0QvdT
+        NDTS0ggdS5GQyzxNH7jzo7Qfz/NGbKqPdd+hepcANUUCtC1TKm1ToCoFqlOgJgFqU+TaFLmkBLp5
+        kGccpVD48RyvwNLvzY2p8wQmpU5DM02CVlMmMG0Cs6OZNsFPWyQwCZ7bhAzb5vVJtSjkwnzfzpce
+        /SuysAFXpKSL0ERDIy2J0EUKWqaii9R0FRpZ+D94QxLCp+2WCV7o5Eo6/rKjkYSNy+cdFg55wGG+
+        3hTVqihXZf5YdH2167fdusq3eZ7/GW/eg7xh9SqvVkXxmO/6qu6rat01ZVGWEZtcvIf/r/BBqtO8
+        O//+BwAA//8DAP6jfYDmDwAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e64e5b2d4a6a-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:38 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dd2cb8ef3ebf48aef1da192c26680c8371573240777; expires=Sat, 07-Nov-20
+        19:19:37 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Darth%20Vader
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4SR22oCMRRFf6Xs5zhJZry0eZR+ghTaIpKOpyY0kwxJRiviv5eICoVqH7PX2rmd
+        A9ow+AwlGTx9Zyg/OMfQR9raMKTLOlIaXE5Q7wd43REUnnXM5uFFrymCwZDdmAyFWtRg6HRKUJDN
+        tDBt46oNLkQo+OAJDOnL+mu2MzaXkPZ0zfbkXNiB4cPGbFZ70iUdy+ppPn8Fw4Z8OVmh0650Teho
+        F6JbQ8Hk3CfFedrp3lZt4Lq3vHfaU05ccjB8WteV1/ytniivi3iHT//hzT9cciwZUk+tpdt3OfOz
+        vSVjW3fSSzfrmIzt77QvBpfNaYM2ks60Pg1KjkeyHkmxkBMlH1UtqpkYCyHeyijW9rdWi0UtlZyp
+        iaga2Zy1Ibqb/02hd8THHMfl8QcAAP//AwAciPdfaAIAAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e655abf2d024-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:39 GMT
+      Etag:
+      - W/"59bb9b5fa68e5588dcd8a4ebc197d862"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=de5b40ed6965ace00a4a01a68fdd162dc1573240779; expires=Sat, 07-Nov-20
+        19:19:39 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/2/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWS4/bNhSF/8oF17Je40dGu7QJ2iDtJjPook0wuCavTMKUSFxSdpyi/72gZuw2
+        QMb0QgvhfCDPObwE+LeIJloSnXjUBO8Hb5jgIbLZU4CfUO5FIcib4BQ9GSW6VSGcp9GMuyfJeLSi
+        Ex8imAAICnkP0QwEvWOImj7z5/ETbcla48YS3tqo3bTTSYJ3hFEn4CEig8YAW6IRFIXI7kSqSNqH
+        wRMbtBDZOR9A44FAsTnQ+N36aUNJAXp2QxIMgzZK0ZiILQYCHBX4icNEKgEDoGQXQtKTmx1a/Hoq
+        02/63h9QmXE3G1VMqEjB2cvZc2+JYgEIO3aTB9dDz0TKDQnozU5H4gCWFGxP8Nu0J3jYn45o98SJ
+        SIkpRNxaEzQpQBjpCIEkU7y4dnNMYBpcJDCS4OjYqqS7Hn51UV8sp9Ojg7FgHSt4hxw1/IGKeC7S
+        bQOFQAqOJmrozTjHO7lp3M15zs6K+SSUCR6j1KSe+3FTwFGFlPHFime3pQBmjO5cYY8MTCg1zWDw
+        KKksy1IUQhkmGR2nWeGDGeEjcdAjsSiEZ6cmSUn7BfkEHyeO3wr4ZOQefpc/o7XTIArBZAkDPSmM
+        aVab+zf1ol4tmo0ohNTIKFPdovtL6Bh96KoqHNGbUroKvak8OW+paipRXAXaHHCXA5Y5YJUDmjpL
+        ZF00WRvNm2wXWR9tvs9soW02S5vN0mY7bdeV+FIIb3GkeGVMnvVrh/hCrLLEOku0m9lUiMhBG/+6
+        rQtRNa/v+z+ovgVqboHaG6D2lpXam1a6uwG6hWmemz2QNtLS68Weger1y3BBrlyp/5j1Dcwte93n
+        mXQ90/R4kuZKxBf9yjieiU2WuMsSbZZoZteSCSMp0Ym2bpaLpl007WPTdO26a5flerWu6/rP9PJQ
+        5oJtFvVy0dw/NnW32nTtfblaLtvVOmETp3fID/ftjR1mX//8CwAA//8DAPe24ZnqCAAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e65b3c1e4c34-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:40 GMT
+      Etag:
+      - W/"126e2153f72e9ac2d1f657cdc0456c26"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=de5b7e013be72522beab797078b8ac3691573240780; expires=Sat, 07-Nov-20
+        19:19:40 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//jJdPb+M2EMW/yizPsi3J+mfdFtlF0HYLFNkAC7RbBDQ1tojQJEFSNoKi
+        372gEjuXRsODL+YP8968GcnmPyzIoJD17AHPqI8I5gBhRPguw8gyhlZ6M+CTHFi/zZixqKU+PgnH
+        L4r17Ad3n+BxRHhAO+2VFCA9CDed9krq40/3U096QAc8BC6ePexf5uJuCqNC7yMQheCbcUMGd2bS
+        Ab4Y8zyt49HjiA6BO4QRnUEPRsPehBG8HNDPyNezVFETz+heLpGfv46fXzRw8GHS0TGczBmzKB6P
+        DhL1IP0IgzNyAIV8QJfBPWp0XEXi3kk8m8lnMHIP/oI2gNTBXCvc+hXcysAVcD3Asxw0txaHSNyN
+        XAtUyjj4gyvLg9SYvUmBOUQkRnHPFRdBCviOmod395/96xjQcseD9AG+zF4/u9NLPOch4MkGD8HA
+        QSHO9B69xOOr/tXYJeYbRpQOzlxNfK/mBkbjAz/GSC4GfsVBwm9aHsfgZ4vAIzOgt+h4QDhJ76XR
+        UcyhFxNecxDcBnlGeO92vV6vWcYG6VAE41jP7tG4I8K3SXDPMmadGSaB8eRBimf4XdxxpaYTy5hD
+        hdzj08BDXMkyz+tVXq+KHcuYGLnjIqDzrP+LjSFY3282/sKtXAuz4VZuLBqrcFNsWLYIlBSwpYCK
+        AmoKaCigpYAiJwkyiYKMoiCzKEkfJeljSydOBlaTKjXZbU36qOnRk7Ov6V46cn9Ipw3ptCF3rCF9
+        tGS3LV1jRxEduWMdOf2OnH5HZrqtN+zvjFnFNYaFF9Hr+dKL5o2oSaIjiR1JFLSRpef8ilQ0QvdT
+        NDTS0ggdS5GQyzxNH7jzo7Qfz/NGbKqPdd+hepcANUUCtC1TKm1ToCoFqlOgJgFqU+TaFLmkBLp5
+        kGccpVD48RyvwNLvzY2p8wQmpU5DM02CVlMmMG0Cs6OZNsFPWyQwCZ7bhAzb5vVJtSjkwnzfzpce
+        /SuysAFXpKSL0ERDIy2J0EUKWqaii9R0FRpZ+D94QxLCp+2WCV7o5Eo6/rKjkYSNy+cdFg55wGG+
+        3hTVqihXZf5YdH2167fdusq3eZ7/GW/eg7xh9SqvVkXxmO/6qu6rat01ZVGWEZtcvIf/r/BBqtO8
+        O//+BwAA//8DAP6jfYDmDwAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e660ee83cff8-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:41 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d92c9ebe566c0e2b7e0837b921c72b2751573240780; expires=Sat, 07-Nov-20
+        19:19:40 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/3/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT2/jNhDFv8qAZ9nWH8uxdVtkF8luE6BIAhRotwjG5NjimiJVchQ3u9jvXlCJ
+        0x4aUwdf/H6eefM4ovVDsGZDohF3xIO34HbALcEXUlpkgnodnKJHrUSzyoTryWq7f5Qej0Y04mY4
+        ENwfno9oDuShxQB+LEMK2H31X22rA7SuI+gNWuJY/gHZOW0JtI0EWkBm6noGduApyIGg1SFqO6/J
+        KrhGC/fOONh510V7UZNmYNlSODl+0oZgj3YfmHwEvuB2i6N0PTDP41fxc6OZDYFyFGD0f7DuCNwi
+        nypffbj5cPnw+RI+3f76+e7TOFYg6YnNc9S3tB8sSGcD+0GydhacBQRLx3Eg3zlPCkKPkiAwjgQ9
+        0dg+atC7I/ndYGJbO1rcaR846soTKlLwkZBbuGf0b85/aym27XpDTCoDjuEOhnWHPBo/EvbOwlEb
+        A6EnY0CSZ9QWlHPdGKjzY7vQoTGwRatifJ62ZMbA40T7vdF2/3oYHO3uPJF6KcBu/P0eDf79PJ/P
+        RSaU9iTZ+bhDWrboFdyi/2tAq0Qmeu/UICmq1+4Yxas5/ILf0X7TaDO4Iuf3BDeDxJDBnZYHuJWX
+        aMzQiUx4MoSBHhVy3NFis65meT0ra5GJ2Aolkw+i+UO0zH1oFotwxF7PpVtgrxc9ud7QoliI7CxQ
+        poAqBSxTQJ0CijxJJF0USRvFKkmsk2klnZbpxJORl8nEyoskkZ5lkzz65LRVctplvRB/ZuLlDjyz
+        ri/6uV15JS6SxDpJbJJEMboOjD60un/f9xuxKN63/h8onwIVU6ByAlROgqop0MUUaD0F2kyAplgq
+        Jlkaz/GJWi0NvX+MJ+DM7rwhZ+6Rf5kpdTZpplxOYOoJzATP8WmPO9+T1GeietXP/LOciDJJVEmi
+        ThKrJLFOEpskce7BPSEvN530hExKNKLMi+WsKGfF+qHIm2rTVNW8rOs8z3+P75dKv2H1LF/OiuIh
+        3zTLVZPX87LMq1UdscHHt83/bbzTphsz/PkPAAAA//8DANOgV3/LCgAA
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e664bc31eeb6-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:42 GMT
+      Etag:
+      - W/"08a8ef79d8d6c7c8fc5dc261d67c1ad3"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d95f33e2bbe59217e4000a4da4094a61c1573240781; expires=Sat, 07-Nov-20
+        19:19:41 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/1/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yWT4/bNhDFv8qAl15oW/Sfta3bogmSokkQbPfUJliMyVlpEIkkSGpdt8h3Dyh5
+        twHSmD7o9H7km3kzBPSvSJw6ErW4hQ90hLfOk5CCPEdn6IGNqNdSOE+WbfOgAx47UYvfEnAEBE+B
+        nQH3CJqfuIMjhvmn8Mne0YE6iB41xZZ9lBBT4C9sm6w+BtcDQsvGkIUDRpLQ4hPB0dmsp5Y4wCOH
+        mOCJdXLhBNgg25jOMlB2e4Md6sQaXveeA43O+Xs1BLYNZO6AKXUkYSwoa9EzRejRYkMGkoOYCDuI
+        pAONt/sObcxCPj5d/EvMwtAl7jERHAm9s3IEXr2+vX+b1T/ub+8koAUMvQtkpuZHx4SJnYUjpxbI
+        uqFpwbsjhbEXB4ZiCu6Uz5JNHAhyCZRe2vk4hDiQgcPph5oiW46JAmBDNkUJHwNbTXEU3xEjhDwC
+        aF1PgAeHwUA7OceEIc9Ggh5icobR5jmm9ly068jCOYwWE2i0EPOQzuc9Od8RoDUQKCYXaBotkXH9
+        c34Ndvj3aT6fz4UUhgPlYYpavCEXGoJ3g8YopPDBmUHTqGA4we9DSP9IuGP9Bd7rX7Hrhl5IEagj
+        jPRgMOWFVfvtdlZtZsuNkEK3GFAnClHUf4k2JR/rxSIe0fNcuwV6XkwVL9RCyIvAsgSsSsC6BGxK
+        wE0J2JaAXQnYlwBVFYliVKqYlSqGpYppqWJcqhiHKuaxUwvxWYrpdV5Ys0m/tEZnYlUkJsfnp/pz
+        zxfigut/zOoKZnMFs7+CubBE30HqGuia1vK+fZbiiVrWHf08sGfgwlN9QW7KyLaM7KZRetJ8oa6z
+        fin+M7EqEssioYrEeqxaB8JERtRiWan1TC1nqrpX63q5qldqvttVVVX9mf8aDL9gm1m1nil1X+3r
+        9U29Wc632/Vuv83YEPI/xP/6PnLXj3V9/QYAAP//AwANQScFmQgAAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e66a89d6cfd8-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:42 GMT
+      Etag:
+      - W/"efcda1cd8821a886c81de0c6de9dd6f1"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d36a5c3d217a5e2909f1b87b3ff2fe6a51573240782; expires=Sat, 07-Nov-20
+        19:19:42 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Rey
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3yQTW7CMBBG7/KtDU4QaaiPgbpqhZAJA7aY2JbtQCni7pVTioRUupw3b34v6Pzg
+        MlQt4OgzQ7mBWSBEOlo/pN84Uho4J6iPC5zuCQpLOkPAkN2bDIXBHZw/OQj0OqUHYLSN686zj1DY
+        xB+YDtbdIY9NBOhMd2b0FzEENjZmsz6Tjg9N9+S2VNCOes1UxvieTj7ythTnHJKSMp10sNPOSx2s
+        DKwd5SRnCwmBneW+HPS3O2ZlK7ESSIE6S8/dW17Wo30kYzse9VKbdUzGhlvYRdKZyoazqm4m1XxS
+        t2/Vi2rmqqqn89ematv38oit/VerZ4uiDZGfHks+MMlFI3FdXb8BAAD//wMAKKeGT+gBAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e66dce674bb5-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:43 GMT
+      Etag:
+      - W/"180d3124da7742b1712db881eb4f911c"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dea3d10762a95329b99fd304d4a8cb24b1573240783; expires=Sat, 07-Nov-20
+        19:19:43 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/7/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAAwAAAP//hJRBb9swDIX/CqHLLq4dt2kc+NZ26dCu2IYkw4CtQ8FYbMxFkQRKbhYM
+        +++DnHXtYa0vvryPfI8U4V8qcjSkarVsCS6dNARnO9yQDSpT5Dk4TXesVV1lynmybNd3jeDOqFrd
+        dBuCxWa/Q7MhgRYDPKDl0JLOb+XWXlloOQCuAtmGMogtQWDLIZIk/fJqvljCx/nb2bwvFg5k4V7c
+        NqmJxtBSAHffl862noWShFbDjo0B6yIIhQidjWyS9C/Owc5giHBNmrMkJpMVkQVNIYrb/80J6fOF
+        Y3tI2HnvJP51TdJ89unz+c3VRQbvyJKggRtihI+yRosJMIQ6AMJK8IFgPltcLZZnHy5mffdFS8Ah
+        WXoSjATRwT1bDe1hCytxsSWBfptpsjVyv7g+MRkPbPshnbBdgydsei7JP7oQuelbpuhrNPhz/zRT
+        HzMNHcjG5AdbFyJoTJ0S4Nm4CM4CQqBGKMKWQ2Bn+wdwcI2bTZfBriVJnuCMBjRm/7hMzaFxDySk
+        AaExXUrSG3cbehMOdbhyXQx5nucqU5qFmuhE1eo6h+sczlaC23RrXpzuGkrKe4ytSc/0nqwlvc/g
+        OZvBuezRwnknG5UpIUMY6E5jTGd8PCpPj8rjo7JUmWpaFGwiSVD1N9XG6ENdFGGHnvPGFei58OS8
+        oaIsVPYqcDIEnA4B5WCLcjxEHFdDxHSwx3Qw6XQySAznmBbqe6a8QUvxlfUf9GJS9niIKKFl/3LB
+        P6KoXs7wBJWjvu8DtdwYSm2Ti6eG6RWPg/7Kmz8Sx4PEYa5GCCPpx/scjY/Kajma1KdlfTLKT0fj
+        ajr6mn64mp9h6YyrZTmuT8p6XOWTsqom04R1kn6///W9Z7MNRVWo338AAAD//wMAKgSoF9sFAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e6736dd9eed6-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:44 GMT
+      Etag:
+      - W/"396ec21ca4a8d4b231eeb445ec3a9355"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dd193bd87a5fe177f2f00128fc8e0c8df1573240783; expires=Sat, 07-Nov-20
+        19:19:43 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/people/?search=Mace%20Windu
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4SQwU4CMRCGX8X850LbdYFNj9y9mRg1hJTdkW3otk3bBQnh3U0JclH0OP/3zUxm
+        Tmj96DKUZHD0maHcaC1DiLQ3fkzfdaQ02pyg3k9weiAoPOmWHl6M60Yw9GS2fYaCbBowDDolKDR1
+        QdrEdeutj1Bw3hEY0s64W9bpuAMDHekWbaI/ODBsTMz9+ki6hItquXwFw5ZcRyUYtC3Dej/QwUfb
+        QaHPOSTFeTroYKat5zoYHqx2lBOvKw6GD2OHcsjv7oXyWRH/4PU/fM6xYkiBWkP3d105lxd7T71p
+        7UUvvVnH1JtwLdtIOlO5sBKynshqUolnKZSs1KOYNvVcCPFWntiZH1ollVyomZjWlbhqY7R3n0U+
+        WOIzyXFenb8AAAD//wMALjwx8yACAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e678bb15cfe8-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:45 GMT
+      Etag:
+      - W/"bc22a011438a409b67f0753518002d0c"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=d35a46786c49d5d71d0138d1f399c43f51573240784; expires=Sat, 07-Nov-20
+        19:19:44 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/5/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXTXPbNhCG/woGZ4pfEkmJN8dN04+kaR310CQdzxpcmTsGAQ4Ays10+t87oGSn
+        nYm1POi0D3f3fXcBkX/LQEGjbOVVCKAehD2I0KO41tagl4nEkbzt8JY62ZaJtCMaMve3ysGjlq3c
+        9+hQkBeTceiDIDM//gY0qEDqs/tsPqCBgKn4gEd0oEXo7eTBdMJbDS4S/osPOHjRwxFFh0qDwy7m
+        oTlMJqAJZI0XwQqNkYpFbnCc7jSpNELxt+/JC48jOAjkgxjsEQc0IYnByXTo5uc0QofO9zSe1cbw
+        EHtwZCcvru1kgvjO2ocpET34OQwdCgqio8OB1KSDONhzNhooYBchMw136GLSn7Aj8bOh+z7MTQ9A
+        JgAZEbERQaGIDlgXezp7dg8a/vryLGa2zTpxNVAHGpKZOVg34GzKbxOiiaV+gTtrkzgCh2FycTox
+        Huz/BiFOU4i9HG2YFdtTWeUokAItyPsJY0blEMI5DRhxdfPuD/H+e7H/4bW4ef3r76/e/nh9rgDe
+        R59jGntE99ijHk5WRAPSNE1lIjtyqIJ1spVv0Lp7FG8nBXG3Rme7SWGM3JB6EO/UNWg9DTKRDjWC
+        x9sOQlzOMs/LVV6tilomUvXgQAV0XrafZB/C6Nss848wUqpsBiNlI9pRY1ZmMrkIrDmg5oCGA4qc
+        JQqOKNkcJZ+DN4N1Y83asWE73bBVNmyVilVbsWorto9qyxI7dn9YP2pWS81qqfk93rBExRLsXGr2
+        NNSspzXracN62rCeNqynDetpw3rasJ42/AXDetqwnm75s19l8s9EjhoMhgv36imeXah4JnYsceli
+        fEIKHpn79gHmP/SXO38mLl2VX6H1bgF04Sr7D9QsgbZLoCU9rcsFULUI2s7WHrEnpfFlZ5+A7OXj
+        8BVZwlQLmJpnqnwBUyxg1guYBbqqBbqqJbqa08qPqOjCWM7xiwvxhKxZZEGSikVqlih4YkEnGz4L
+        r7jg9ZRbHtnx7eY8crrl5hdz7Ob34WKzKspVme+LvK2atmrS7bbO8/xj/Gbr6BmrVvlmVRT7fNdu
+        qjYv0rpc77ZlxCYXv+C+WfhAevBZlcl//gUAAP//AwCjRKyzIQ4AAA==
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e67e4b17eeca-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:46 GMT
+      Etag:
+      - W/"bc28b26d01b8dac2e52ad696a6c53bb9"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dece20b8527e3b032256b7cc9b9817e731573240785; expires=Sat, 07-Nov-20
+        19:19:45 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/4/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4yXTY/bNhCG/wrBs6wvi7al6wJJ0SZBkS5QIEmxGJNjiw1FEiS1G6Pofy+o9W56
+        SDw6+DQP9c48pCnoH550MsgHfj8i+30Em9zE3qMFibzg6HV0Ch+04kNTcOfRant+kAGeTF4zh8lp
+        w0aIDO15NidULI34JXyxb8GATFqyj+jno9GyZDkiwTdI2tmMuBNLARSy4OaEkSXH3JzMRdsziwlC
+        ZuIlJpwi05Fpy5SOfk5Y5kr+/eJ8hpNjAaMzj5jT2QQp4bL6SaeRATsaJ7/mIHdiCkGZSy4eISWD
+        cdQ+Fsu6c0BUF3afe8rAG1QYlm6XCWNy3qNiYMzS2aj9S3peHScwhnkDFtN1ug9wdO612T9HbZ4b
+        vHP2HDDG3M9V14slhlYZjNFcmMIjJIy5mkYdGRgIUw6UI2ib1+Ij2hSLZwLZH7MPOCG7G8FKNMaF
+        3PfSK8qAKT9TRw9Jjnmfnhz7FZXO9d+sPo/pRcMMQWmwub1c9AgSGVjF/p5j0hLzTlzbPoOBb5ci
+        O4iYdS5PkM6ejJapLMuSF1zpgDK5wAf+Fl04I3s3S4i84D44NUvMlY9afmXv5R0YM0+84AENQsQH
+        BSkfz6bv+00tNk3PCy5HCCAThsiHz3xMycehquITeF1KV4HXlUfnDVZtxYubwJYCmpokGpLYUURL
+        prRkypYelpx225EEOct2TxIHkugpoiONdaSxjjTWkcY60lhHGutIHx3pQ5A+BOlDkD4E6UOQPoQg
+        CdKYIM+YIJ0K+ozRJ1lU/K+CP9/6N26j53p1o6cr0ZNEsyTm9+Py6vpp5itx66/yP6hZAW1XQe0a
+        qF/GeMRRS4M/n+IFuHV3fWe6FYxYwexWMPsVzIFm8h2U99Oj1Dc8XOvVjQ24Ei1J7EiioWMaOqfZ
+        0khHI4JGVky0p5EDjfS0/ppGVmwibbel7ba03Za229J22/1yiGVASKj4wNu66TZNu2n6+2Y3iHYQ
+        otx3dV3Xn/JnhdKvmNjU3aZp7ut+6MTQHMrdod/WTcbmkD8yfhh80maKVVfxf/8DAAD//wMAFUg8
+        qMIMAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e684485b4a4c-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:47 GMT
+      Etag:
+      - W/"f9ed1b727fbc3acc9c257e3942965a9a"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dfbb7e3499a89a2d0f8acb87a9e6042171573240786; expires=Sat, 07-Nov-20
+        19:19:46 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://swapi.co/api/films/6/
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA4SSS2scMQzHv4rq82Rf6fSxt5CUpW0KJQ300EDQ2tqxWK9tZM0soV++eNI0t/rg
+        i/XD/4f82yhrILM1dzRRHAjSAdQT/GD1pjOUuSRHj+zM9rIzKVPkODxawXMwW/MT5Q3ce4I7yuM+
+        sAUuYGU87QPH4UEe4hgdCaAq2mOB/dP8uIzqA5VSgSoEt0lcB9dpjAo3KR3HRR3dexICFAJPkqhA
+        irBP6qGwozIjnyYOVZMmkqdz5efrej5HQCg6xuoYTmmirorX0YEpOi4enCR2EAgdSQc7iiQYKrET
+        pimNpQOPBcqZsgJHTS8v/MtrMbNiAIwOjuwi5kyuEtceo6UQksB3DBmVI3V/pSAdKlKr2GFAq2zh
+        B0XUV/dX5XkNlFFQuSjczF6v5PRU56hKp6wFNMEhEM30ngrT8Kz/Yuxc+1VPLDBhGHEf5gA+FcWh
+        VnJO8IUcw9fIg9cyWwSsjKOSSVAJTlwKp1jFhIod6aUHi1l5InhNu1gsFqYzjoWsJjFbs6MkA8Ht
+        aLGYzmRJbrRUJ3dsj/DNXmMI48l0RigQFnp0qPVLblar/mLVX6w/ms5Yj4JWSYrZ/jJeNZftclnO
+        mHlh0xIzLzOlHGi5Xpruv8CmBVy2gLctoG8B71rA+xawXjWJZhPrZhXrZhebpo9N08dlu/FmYX1T
+        pW+m7Zs++vbqm7vv21k+vBJ/AAAA//+M18FugzAMBuB36Xm0cUichOfoadIOiGYqEptQy3bbu0/Q
+        wi4j/3/mk21shzY7+wMrVVipwh1TWEeAbxtwjIREhDsW4fQjnH6EPa396fD2chiH9jNPhQ/R43np
+        Q/MUHooIRYJCcCGlc74Shwl+H1FMAia4LUL0ZZnmfWpv92s/7s9zEye3n/cP+UQgFQLVlolUM8gx
+        yDNICRSYdIFJR3UgLoP8zte+G/L+HFdQ+r3ZjDeEYeIoNkrkUkuYQJiETSDqCUIYouZA9DDo46SO
+        uesL830+Lx39lRQ2YCUWB8FCMQmQ4CCC0zgcxOMomBT+D26EaD4u1xK14M5Z3H4bMSE2ziw73N1y
+        O+XLcr0RV4mtrDlLbFxq6nh0pjbGvM4370u/MV8ZV4mcTWqcb5w7RrVi7cy+bvM9/N/E7/3wsezO
+        zy8AAAD//wMA/qN9gOYPAAA=
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 5329e68b2be5eee2-GRU
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 08 Nov 2019 19:19:48 GMT
+      Etag:
+      - W/"68bab5ec66f28d0f87d1d1cb8cb06c9f"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfduid=dd77e3b8b6926b2d882876b9ce7c93c221573240787; expires=Sat, 07-Nov-20
+        19:19:47 GMT; path=/; domain=.swapi.co; HttpOnly; Secure
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Cookie
+      Via:
+      - 1.1 vegur
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1
