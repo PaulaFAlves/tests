@@ -1,9 +1,6 @@
 import requests
 
 
-
-
-
 class Character:
     """
     A StarWars character
