@@ -1,6 +1,3 @@
-
-
-
 import math
 
 
@@ -28,6 +25,7 @@ class Point():
     3.0
     """
 
+
     def __init__(self, x, y):
         # self.x = self.define_xy()
         self.x = x
@@ -39,8 +37,6 @@ class Point():
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.x!r}, {self.y!r})"
-
-
 
 
 def euclidean_distance(a, b):
@@ -67,17 +63,6 @@ def euclidean_distance(a, b):
     return math.sqrt(r)
 
 
-    #     num1 = Point(0.0, 0.0)
-    #     x1 = num1.x
-    #     y1 = num1.y
-    #     num2 = Point(3.0, 4.0)
-    #     x2 = num2.x
-    #     y2 = num2.y
-
-    #     r = ((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2))
-    # return math.sqrt(r)
-
-
 def manhattan_distance(a, b):
     """
     Returns the manhattan distance between Point a and Point b
@@ -101,7 +86,6 @@ def manhattan_distance(a, b):
     
     r = (a.x - b.x) + (a.y - b.y)
     return math.fabs(r)
-
 
 
 if __name__ == "__main__":
