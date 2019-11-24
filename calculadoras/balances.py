@@ -1,3 +1,18 @@
+"""
+Given a number of companies and a number of months,
+
+With the following information:
+	- Number of companies
+	- Number of months
+	- Finantial results in each month
+
+Calculate the total finantial result in the period, for each company,
+and say if it has achieved profit, loss or the result was indiferent.
+
+Make sure the number of month that was informed by the user is valid.
+
+"""
+
 import time
 
 
@@ -42,20 +57,20 @@ def financial_results(n):
 	result = n
 	msg = str
 	if result == 0:
-		msg = 'Indiferente'
+		msg = 'Indiferent'
 	elif result > 0:
-		msg = 'Lucro'
+		msg = 'Profit'
 	elif result < 0:
-		msg = 'Prejuízo'
+		msg = 'Loss'
 	return msg
 
 
 number_of_companies()	
 
 
-assert financial_results(0) == 'Indiferente'
-assert financial_results(100) == 'Lucro'
-assert financial_results(-100) == 'Prejuízo'
+assert financial_results(0) == 'Indiferent'
+assert financial_results(100) == 'Profit'
+assert financial_results(-100) == 'Loss'
 
 assert number_of_months(13) == 'Invalid number'
 assert number_of_months(-3) == 'Invalid number'
